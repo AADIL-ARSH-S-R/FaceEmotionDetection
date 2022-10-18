@@ -1,4 +1,4 @@
-from fer import FER
+from fer import FER #module for checking emotions.
 import matplotlib.pyplot as plt 
 test_image_one = plt.imread("Image-One.jpeg")
 emo_detector = FER(mtcnn=True)
